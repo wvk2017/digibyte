@@ -32,6 +32,6 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: wvk2017/nodes:digibyte:9.26.4
+          tags: wvk2017/nodes:digibyte
           #tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
